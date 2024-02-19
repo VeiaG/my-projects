@@ -4,7 +4,7 @@
         "description":"This is a html placeholder",
         "fullDescription":"This is a full description of the html placeholder. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui.",
         "image":"./images/placeholder.png",
-        "images":["./images/placeholder.png", "./images/test.jpg", "./images/placeholder.png", "./images/noise.png", "./images/noise.png"],
+        "images":["./images/placeholder.png", "./images/placeholder.png", "./images/placeholder.png", "./images/noise.png", "./images/noise.png"],
         "url":"https://www.google.com/",
         "tags":["HTML","TypeScript","JavaScript","CSS"]
     },
