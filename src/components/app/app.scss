@@ -1,0 +1,29 @@
+.app{
+    min-height: calc(100dvh - 64px);
+}
+button,a.btn{
+    // display: none;
+    text-align: center;
+    font-size:32px;
+    min-width: 256px;
+    padding:8px 16px;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background-size:200%;
+    background-position: 100%;
+    user-select: none;
+    color:var(--text-color);
+    border:none;
+    //border:2px solid var(--text-color);
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        background-position: 0;
+        // scale:1.02;
+    }
+    &:active{
+        transform:translateY(2px);
+        filter:brightness(80%);
+    }
+}

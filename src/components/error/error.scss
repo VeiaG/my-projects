@@ -1,0 +1,26 @@
+.error{
+    padding-top:128px;
+    padding-bottom: 128px;
+    &__wrapper{
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        gap:8px;
+        h1{
+            font-size: 32px;
+            font-weight: 300;
+            text-align: center;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 300;
+            text-align: center;
+        }
+        img{
+            max-width:320px;
+        }
+    }
+}

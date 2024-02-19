@@ -1,0 +1,26 @@
+@mixin noiseOverlay($width:100% , $height:100%) {
+    content:'';
+    display: block;
+    position: absolute;
+    width:$width;
+    height:$height;
+    top:0;
+    left:0;
+    background:url(../public/images/noise.png) repeat;
+    mix-blend-mode: overlay;
+    z-index:0;
+    user-select: none;
+    pointer-events: none;
+  }
+  @mixin accentLine(){
+    content:'';
+    display: block;
+    position: absolute;
+    height:100%;
+    width:8px;
+    top:0;
+    left:-16px;
+    background:var(--accent-color);
+    filter:blur(4px);
+    transition: all .3s ease-in-out;
+}

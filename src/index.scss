@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'mixins.scss';
+*{
+    box-sizing: border-box;
+}
+[class*='__wrapper']{
+    width:100%;
+    max-width:1400px;
+    height:100%;
+    margin-inline: auto;
+    position: relative;
+    padding-left:32px;
+    padding-right:32px;
+    
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}  
+a{
+  all:unset;
+}
+
+body{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  --background-50: #0c0c0c;
+  --background-100: #191919;
+
+  --text-color:#fdfdfd;
+  --accent-color:#FF3CAC;
+
+  overflow-x:hidden;
+  color:var(--text-color);
+
+  position: relative;
+  background:var(--background-50);
+
+  scroll-behavior: smooth;
+
+  
+
+  &::before{
+      @include noiseOverlay();
+  }
+}
