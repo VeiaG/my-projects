@@ -1,39 +1,85 @@
 [
     {
-        "name":"ЕКОТМ",
-        "description":"Інноваційне обладнання для екологічного пакування",
+        "name":"EKOTM",
+        "description":"Інноваційне обладнання для екологічного пакування.",
         "fullDescription":"Створено сучасний, простий лендінг з акцентом на екологічність, чіткою структурою, переконливим контентом та чітким закликом до дії.",
         "image":"./images/ecotm/1.png",
         "images":["./images/ecotm/2.png", "./images/ecotm/3.png", "./images/ecotm/4.png", "./images/ecotm/5.png"],
         "url":"https://ecotm.com.ua/",
+        "tags":["HTML","JavaScript","CSS","SCSS","Webpack","Figma"],
+        "sourceURL":"https://github.com/VeiaG/ekotm",
+        "figmaURL":"https://www.figma.com/file/XKfOSFVXitN7D5JdrmPRkq/%D0%95%D0%9A%D0%9E-%D0%A2%D0%9C%22?type=design&node-id=0%3A1&mode=design&t=fpxhjbAmQHpgdh3A-1"
+       
+    },
+    {
+        "name":"NW Web",
+        "description":"Веб-застосунок для полегшення створення таблиць з модулями.",
+        "fullDescription":"Спочатку створено десктопну програму на C# для полегшення створення таблиць з переліком деталей для меблів за допомогою модульної системи. Пізніше перероблено програму як PWA на React, зберігши функціональність та покращивши візуальну складову.",
+        "image":"./images/nw-web/1.png",
+        "images":["./images/nw-web/2.png", "./images/nw-web/3.png", "./images/nw-web/4.png", "./images/nw-web/5.png"],
+        "url":"https://veiag.github.io/nw-web/",
+        "tags":["React","PWA","JavaScript","CSS","SCSS"],
+        "sourceURL":"https://github.com/VeiaG/nw-web"
+    },
+    {
+        "name":"Simple LightMode",
+        "description":"Простий і гнучкий спосіб керувати світлими і темними темами у веб-застосунках.",
+        "fullDescription":"Ця бібліотека надає простий і гнучкий спосіб керувати світлими і темними темами у веб-застосунках. Вона пропонує клас LightMode, який можна легко інтегрувати у ваш проект, щоб увімкнути динамічне перемикання тем на основі вподобань користувача або користувацьких налаштувань.",
+        "image":"./images/light-mode/1.png",
+        "images":[],
+        "url":"https://www.npmjs.com/package/light-mode",
+        "tags":["TypeScript"],
+        "sourceURL":"https://github.com/VeiaG/light-mode"
+    },
+    {
+        "name":"Notate",
+        "description":"Веб-застосунок для створення та групування нотаток.",
+        "fullDescription":"Notate - це веб-застосунок, розроблений на платформі React, який дозволяє користувачам легко створювати, редагувати і організовувати свої нотатки в онлайн-середовищі. Завдяки зручному і інтуїтивно зрозумілому інтерфейсу, Notate створений для того, щоб спростити процес збереження важливої інформації та ідей, надаючи можливість швидко записувати і доступно зберігати нотатки в одному зручному місці. ",
+        "image":"./images/notate/1.png",
+        "images":["./images/notate/2.png", "./images/notate/3.png", "./images/notate/4.png", "./images/notate/5.png", "./images/notate/6.png", "./images/notate/7.png"],
+        "url":"https://notateapp.github.io/",
+        "tags":["React","Redux","JavaScript","CSS","SCSS","PWA","Figma"],
+        "sourceURL":"https://github.com/VeiaG/notate-react-app",
+        "figmaURL":"https://www.figma.com/file/8TFgPPnNW8AdVlgB0rmv80/Notate?type=design&node-id=0%3A1&mode=design&t=mCoSo9RNBkOsj4Dm-1"
+    },
+    {
+        "name":"Energo complex",
+        "description":"Сайт для управління базою данних.",
+        "fullDescription":"Цей сайт - моя курсова робота . Сайт створений для управління базою данних , з можливістью додавання , редагування та видалення данних , та створення запитів.",
+        "image":"./images/energo-complex/1.png",
+        "images":["./images/energo-complex/2.png", "./images/energo-complex/3.png", "./images/energo-complex/4.png"],
+        "url":"https://github.com/VeiaG/energo-complex",
+        "tags":["HTML","JavaScript","CSS","SCSS","NodeJS","MySQL"],
+        "sourceURL":"https://github.com/VeiaG/energo-complex"
+    },
+    {
+        "name":"Norw Wood",
+        "description":"Сайт для меблевої компанії.",
+        "fullDescription":"Я, в якості розробника, створив цей веб-сайт для меблевої компанії NorwWood з метою надання зручного та привабливого інструменту для ознайомлення з їх послугами та портфоліо.",
+        "image":"./images/norw-wood/1.png",
+        "images":["./images/norw-wood/2.png", "./images/norw-wood/3.png", "./images/norw-wood/4.png", "./images/norw-wood/5.png"],
+        "url":"https://norwwood.github.io/",
         "tags":["HTML","JavaScript","CSS","SCSS","Webpack"],
-        "sourceUrl":""
+        "sourceURL":"https://github.com/norwwood/norwwood.github.io"
     },
     {
-        "name":"CSS placeholder",
-        "description":"This is a css placeholder",
-        "fullDescription":"This is a full description of the css placeholder. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui.",
-        "image":"./images/placeholder.png",
-        "images":["./images/placeholder.png", "./images/placeholder.png", "./images/placeholder.png"],
-        "url":"https://www.google.com/",
-        "tags":["CSS"]
+        "name":"Logic Sim",
+        "description":"Симулятор логічних операцій над бітами.",
+        "fullDescription":"Цей веб-застосунок дозволяє користувачам виконувати логічні операції над бітами, використовуючи візуальний інтерфейс. Він був створений для кращої візуалізації процесів блочного шифрування. Є можливість експорту , імпорту , а також перегляду логічної схеми по крокам.",
+        "image":"./images/bit-logic/1.png",
+        "images":["./images/bit-logic/2.png", "./images/bit-logic/3.png", "./images/bit-logic/4.png"],
+        "url":"https://veiag.github.io/logic-sim/",
+        "tags":["React","JavaScript","CSS","SCSS", "PWA"],
+        "sourceURL":"https://github.com/VeiaG/logic-sim"
     },
     {
-        "name":"JS placeholder",
-        "description":"This is a js placeholder",
-        "fullDescription":"This is a full description of the js placeholder. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui.",
-        "image":"./images/placeholder.png",
-        "images":["./images/placeholder.png", "./images/placeholder.png", "./images/placeholder.png"],
-        "url":"https://www.google.com/",
-        "tags":["JavaScript"]
-    },
-    {
-        "name":"React placeholder",
-        "description":"This is a react placeholder",
-        "fullDescription":"This is a full description of the react placeholder. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui.",
-        "image":"./images/placeholder.png",
-        "images":["./images/placeholder.png", "./images/placeholder.png", "./images/placeholder.png"],
-        "url":"https://www.google.com/",
-        "tags":["React"]
+        "name":"Ranobe UA",
+        "description":"Веб-застосунок для читання ранобе українською. (WIP)",
+        "fullDescription":"Цей застосунок я планував розробити для читання ранобе українською мовою. Він мав би включати в себе можливість зберігання прогресу читання, пошук та фільтрацію ранобе. Працює режим читання , перегляд інформації про книги. Наразі розробка призупинена через складнощі перекладу. ",
+        "image":"./images/ranobe-ua/1.png",
+        "images":["./images/ranobe-ua/2.png", "./images/ranobe-ua/3.png", "./images/ranobe-ua/4.png", "./images/ranobe-ua/5.png"],
+        "url":"https://veiag.github.io/ranobe-ua/",
+        "tags":["React","JavaScript","CSS","SCSS","PWA"],
+        "sourceURL":"https://github.com/VeiaG/ranobe-ua"
     }
 ]
