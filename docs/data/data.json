@@ -1,12 +1,13 @@
 [
     {
-        "name":"HTML placeholder",
-        "description":"This is a html placeholder",
-        "fullDescription":"This is a full description of the html placeholder. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui.",
-        "image":"./images/placeholder.png",
-        "images":["./images/placeholder.png", "./images/placeholder.png", "./images/placeholder.png", "./images/noise.png", "./images/noise.png"],
-        "url":"https://www.google.com/",
-        "tags":["HTML","TypeScript","JavaScript","CSS"]
+        "name":"ЕКОТМ",
+        "description":"Інноваційне обладнання для екологічного пакування",
+        "fullDescription":"Створено сучасний, простий лендінг з акцентом на екологічність, чіткою структурою, переконливим контентом та чітким закликом до дії.",
+        "image":"./images/ecotm/1.png",
+        "images":["./images/ecotm/2.png", "./images/ecotm/3.png", "./images/ecotm/4.png", "./images/ecotm/5.png"],
+        "url":"https://ecotm.com.ua/",
+        "tags":["HTML","JavaScript","CSS","SCSS","Webpack"],
+        "sourceUrl":""
     },
     {
         "name":"CSS placeholder",
