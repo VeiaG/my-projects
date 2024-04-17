@@ -1,5 +1,15 @@
 [
     {
+        "name":"Time Tracker",
+        "description":"Веб-застосунок для відстеження часу.",
+        "fullDescription":"TimeTracker - це простий у використанні інструмент для створення таймерів і перегляду графіків використання по днях. Він дозволяє ефективно відстежувати свій час і переглядати середнє використання таймерів.",
+        "image":"./images/time-tracker/1.png",
+        "images":["./images/time-tracker/2.png", "./images/time-tracker/3.png", "./images/time-tracker/4.png", "./images/time-tracker/5.png","./images/time-tracker/6.png"],
+        "url":"https://time-tracker.veiag.xyz/",
+        "tags":["React","TypeScript","Tailwind","PWA","shadcn","NodeJS"],
+        "sourceURL":"https://github.com/VeiaG/time-tracker"
+    },
+    {
         "name":"EKOTM",
         "description":"Інноваційне обладнання для екологічного пакування.",
         "fullDescription":"Створено сучасний, простий лендінг з акцентом на екологічність, чіткою структурою, переконливим контентом та чітким закликом до дії.",
@@ -17,7 +27,7 @@
         "fullDescription":"Спочатку створено десктопну програму на C# для полегшення створення таблиць з переліком деталей для меблів за допомогою модульної системи. Пізніше перероблено програму як PWA на React, зберігши функціональність та покращивши візуальну складову.",
         "image":"./images/nw-web/1.png",
         "images":["./images/nw-web/2.png", "./images/nw-web/3.png", "./images/nw-web/4.png", "./images/nw-web/5.png"],
-        "url":"https://veiag.github.io/nw-web/",
+        "url":"https://veiag.xyz/nw-web/",
         "tags":["React","PWA","JavaScript","CSS","SCSS"],
         "sourceURL":"https://github.com/VeiaG/nw-web"
     },
@@ -68,7 +78,7 @@
         "fullDescription":"Цей веб-застосунок дозволяє користувачам виконувати логічні операції над бітами, використовуючи візуальний інтерфейс. Він був створений для кращої візуалізації процесів блочного шифрування. Є можливість експорту , імпорту , а також перегляду логічної схеми по крокам.",
         "image":"./images/bit-logic/1.png",
         "images":["./images/bit-logic/2.png", "./images/bit-logic/3.png", "./images/bit-logic/4.png"],
-        "url":"https://veiag.github.io/logic-sim/",
+        "url":"https://veiag.xyz/logic-sim/",
         "tags":["React","JavaScript","CSS","SCSS", "PWA"],
         "sourceURL":"https://github.com/VeiaG/logic-sim"
     },
@@ -78,8 +88,9 @@
         "fullDescription":"Цей застосунок я планував розробити для читання ранобе українською мовою. Він мав би включати в себе можливість зберігання прогресу читання, пошук та фільтрацію ранобе. Працює режим читання , перегляд інформації про книги. Наразі розробка призупинена через складнощі перекладу. ",
         "image":"./images/ranobe-ua/1.png",
         "images":["./images/ranobe-ua/2.png", "./images/ranobe-ua/3.png", "./images/ranobe-ua/4.png", "./images/ranobe-ua/5.png"],
-        "url":"https://veiag.github.io/ranobe-ua/",
+        "url":"https://veiag.xyz/ranobe-ua/",
         "tags":["React","JavaScript","CSS","SCSS","PWA"],
         "sourceURL":"https://github.com/VeiaG/ranobe-ua"
     }
+    
 ]
