@@ -16,7 +16,7 @@
         "image":"./images/ecotm/1.png",
         "images":["./images/ecotm/2.png", "./images/ecotm/3.png", "./images/ecotm/4.png", "./images/ecotm/5.png"],
         "url":"https://ecotm.com.ua/",
-        "tags":["HTML","JavaScript","CSS","SCSS","Webpack","Figma"],
+        "tags":["HTML","TypeScript","CSS","SCSS","Vite","NodeJS","Figma"],
         "sourceURL":"https://github.com/VeiaG/ekotm",
         "figmaURL":"https://www.figma.com/file/XKfOSFVXitN7D5JdrmPRkq/%D0%95%D0%9A%D0%9E-%D0%A2%D0%9C%22?type=design&node-id=0%3A1&mode=design&t=fpxhjbAmQHpgdh3A-1"
        
